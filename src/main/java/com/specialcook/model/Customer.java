@@ -38,4 +38,12 @@ public class Customer {
     public List<String> getOrderHistory() {
         return orderHistory;
     }
+
+    public void addOrder(Order order) {
+    }
+
+    public String getName() {
+
+        return "";
+    }
 }

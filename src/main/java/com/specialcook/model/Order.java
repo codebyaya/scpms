@@ -9,7 +9,7 @@ public class Order {
     private double totalCost;
     private boolean valid;
 
-    public Order(Customer customer) {
+    public Order(Customer customer, String pasta) {
         this.customer = customer;
         this.ingredients = new ArrayList<>();
         this.substitutions = new HashMap<>();
@@ -62,5 +62,25 @@ public class Order {
 
     public boolean isValid() {
         return valid;
+    }
+
+    public double getTotalPrice() {
+
+        return 0;
+    }
+
+    public Order getMealPlan() {
+        return null;
+    }
+
+    public String getStatus() {
+        return "";
+    }
+
+    public void setStatus(String completed) {
+    }
+
+    public String getMeal() {
+        return "";
     }
 }
